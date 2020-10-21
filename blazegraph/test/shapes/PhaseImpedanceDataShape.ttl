@@ -1,0 +1,67 @@
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+#
+#  Shape file for IEEE123 Feeder Models
+#  Developer: Eric Stephan (ericstephan)
+#  Pacific Northwest National Laboratory
+#  October 20, 2020
+#  Version 0.1
+#
+
+schema:PhaseImpedanceDataShape
+    a sh:NodeShape ;
+    sh:targetClass cim:PhaseImpedanceData ;
+
+   sh:property [
+    sh:path cim:PhaseImpedanceData.PhaseImpedance  ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+
+    sh:property [
+    sh:path cim:PhaseImpedanceData.row ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+    sh:property [
+    sh:path cim:PhaseImpedanceData.column ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+       sh:property [
+    sh:path cim:PhaseImpedanceData.r ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+       sh:property [
+    sh:path cim:PhaseImpedanceData.x ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+       sh:property [
+    sh:path cim:PhaseImpedanceData.b ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+
+   .
+

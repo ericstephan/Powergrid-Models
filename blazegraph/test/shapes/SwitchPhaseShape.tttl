@@ -1,0 +1,72 @@
+<file:///Users/d3a303/git/Powergrid-Models/blazegraph/test/IEEE123.xml#_F291FFFF-EB24-44C8-8C63-88235CD15701>
+        rdf:type                    cim:SwitchPhase ;
+        cim:IdentifiedObject.mRID   "_F291FFFF-EB24-44C8-8C63-88235CD15701" ;
+        cim:IdentifiedObject.name   "sw8_A" ;
+        cim:SwitchPhase.closed      "false" ;
+        cim:SwitchPhase.normalOpen  "true" ;
+        cim:SwitchPhase.phaseSide1  cim:SinglePhaseKind.A ;
+        cim:SwitchPhase.phaseSide2  cim:SinglePhaseKind.A ;
+        cim:SwitchPhase.Switch      <file:///Users/d3a303/git/Powergrid-Models/blazegraph/test/IEEE123.xml#_0736DEBC-7541-4D9A-A782-639539B2E4DA> ;
+        cim:PowerSystemResource.Location  <file:///Users/d3a303/git/Powergrid-Models/blazegraph/test/IEEE123.xml#_F9495B8B-7805-42A4-9E51-85BE130A8335> .
+
+
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+schema:SwitchPhaseShape
+    a sh:NodeShape cim:SwitchPhase;
+
+
+    sh:property [
+    sh:path cim:IdentifiedObject.mRID   ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+    sh:property [
+    sh:path cim:IdentifiedObject.name ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+    sh:property [
+    sh:path cim:SwitchPhase.closed  ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+    sh:property [
+    sh:path cim:SwitchPhase.normalOpen ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+   ] ;
+
+  sh:property [
+    sh:path cim:SwitchPhase.phaseSide1  ;
+    sh:in (cim:SinglePhaseKind.A) ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+    sh:property [
+    sh:path cim:SwitchPhase.phaseSide1 ;
+    sh:in (cim:SinglePhaseKind.A ) ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+.
+
