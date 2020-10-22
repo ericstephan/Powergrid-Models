@@ -1,0 +1,17 @@
+   /Users/d3a303/git/Powergrid-Models/blazegraph/test
+   216	10:32	~/apache-jena-3.15.0/bin/arq --query ACLineSegmentPhase.sparql --data=IEEE123.ttl
+   247	12:16	~/apache-jena-3.15.0/bin/arq --query ACLineSegmentPhase.sparql --data=IEEE123.ttl -q
+   253	12:22	~/apache-jena-3.15.0/bin/arq --query ACLineSegmentPhase.sparql --data=IEEE123.ttl > x3
+   261	12:27	~/apache-jena-3.15.0/bin/arq -q --query ACLineSegment.sparql --data=IEEE123.ttl > x3
+   263	12:29	sed -r 's///' x3s
+   264	12:29	vi x3
+   265	12:29	sed -r 's/owl:NamedIndividual , //' x3
+   266	12:30	sed 's/owl:NamedIndividual , //' x3
+   269	7:35	~/apache-jena-3.15.0/bin/arq -q --query ACLineSegment.sparql --data=IEEE123.xml > x3
+   274	7:50	~/apache-jena-3.15.0/bin/riot --syntax=RDF/XML --output=Turtle IEEE123.xml > IEEE123_2.ttl
+   276	7:51	~/apache-jena-3.15.0/bin/arq -q --query ACLineSegment.sparql --data=IEEE123_2.xml > x3
+   277	7:51	~/apache-jena-3.15.0/bin/arq -q --query ACLineSegment.sparql --data=IEEE123_2.ttl > x3
+   282	7:55	pyshacl -s ./ACLineSegmentshacl.ttl -m -i none -a -f human ./x3.ttl
+   305	8:42	pyshacl -s ./ACLineSegmentshacl.ttl -m -i none -a -f human ./x3_1.ttl
+   309	8:43	pyshacl -s ./ACLineSegmentshacl.ttl -m -i none -a -f human ./x3_1.ttl
+   310	11:52	pyshacl -s ./ACLineSegmentshacl.ttl -m -i none -a -f human ./IEEE123_2.ttl
