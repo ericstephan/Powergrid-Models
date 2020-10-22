@@ -5,14 +5,14 @@
 @prefix cim: <http://iec.ch/TC57/CIM100#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://example.com/owl/families> rdf:type owl:Ontology ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpCoreBaseDiagramProfile.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpLoadSourceModelDiagramProfile.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpMeasMeasDiagramProfile.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpMeasMeasDiagramProfile.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpOperationalLimitsDiagramProfile.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpRegulationDiagramProfile.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpTransformerDiagramProfile.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/FpWireBaseDiagramProfile.ttl> .
+<http://gridappsd.pnnl.gov/FpProfile> rdf:type owl:Ontology ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpCoreBaseDiagramProfile.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpLoadSourceModelDiagramProfile.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpMeasMeasDiagramProfile.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpMeasMeasDiagramProfile.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpOperationalLimitsDiagramProfile.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpRegulationDiagramProfile.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpTransformerDiagramProfile.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/FpWireBaseDiagramProfile.ttl> .
 
 

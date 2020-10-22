@@ -7,4 +7,4 @@
 @prefix cim: <http://iec.ch/TC57/CIM100#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://example.com/owl/families> rdf:type owl:Ontology . 
+<http://gridappsd.pnnl.gov/FpMeasMeasDiagramProfile> rdf:type owl:Ontology . 

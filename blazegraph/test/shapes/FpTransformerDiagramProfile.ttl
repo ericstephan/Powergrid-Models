@@ -7,11 +7,11 @@
 @prefix cim: <http://iec.ch/TC57/CIM100#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://example.com/owl/families> rdf:type owl:Ontology ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/BaseVoltageShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/PowerTransformerShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/PowerTransformerEndShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/RatioTapChangerShape.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TapChangerControlShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TerminalShape.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TransformerTankShape.ttl> . 
+<http://gridappsd.pnnl.gov/FpTransformerDiagramProfile> rdf:type owl:Ontology ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/BaseVoltageShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/PowerTransformerShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/PowerTransformerEndShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/RatioTapChangerShape.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/TapChangerControlShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/TerminalShape.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/TransformerTankShape.ttl> . 

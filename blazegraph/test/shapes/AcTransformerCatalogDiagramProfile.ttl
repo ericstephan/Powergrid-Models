@@ -7,9 +7,9 @@
 @prefix cim: <http://iec.ch/TC57/CIM100#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://example.com/owl/families> rdf:type owl:Ontology ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/NoLoadTestShape.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/ShortCircuitTestShape.ttl> ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TransformerEndInfoShape.ttl> .
+<http://gridappsd.pnnl.gov/AcTransformerCatalogDiagramProfile> rdf:type owl:Ontology ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/NoLoadTestShape.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/ShortCircuitTestShape.ttl> ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/TransformerEndInfoShape.ttl> .
 
 

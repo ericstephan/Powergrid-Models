@@ -7,10 +7,10 @@
 @prefix cim: <http://iec.ch/TC57/CIM100#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://example.com/owl/families> rdf:type owl:Ontology ;
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/ConnectivityNodeShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/CurrentLimitShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/OperationalLimitSetShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/OperationalLimitTypeShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TerminalShape.ttl> ; 
-owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/VoltageLimitShape.ttl> . 
+<http://gridappsd.pnnl.gov/FpOperationalLimitsDiagramProfile> rdf:type owl:Ontology ;
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/ConnectivityNodeShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/CurrentLimitShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/OperationalLimitSetShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/OperationalLimitTypeShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/TerminalShape.ttl> ; 
+owl:imports <https://github.com/ericstephan/Powergrid-Models/tree/develop/blazegraph/test/shapes/VoltageLimitShape.ttl> . 
