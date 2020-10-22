@@ -1,0 +1,17 @@
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.com/owl/families> rdf:type owl:Ontology ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/BaseVoltageShape.ttl> ; 
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/PowerTransformerShape.ttl> ; 
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/PowerTransformerEndShape.ttl> ; 
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/RatioTapChangerShape.ttl> ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TapChangerControlShape.ttl> ; 
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TerminalShape.ttl> ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/TransformerTankShape.ttl> . 

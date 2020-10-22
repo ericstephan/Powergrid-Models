@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cim: <http://iec.ch/TC57/CIM100#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.com/owl/families> rdf:type owl:Ontology ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/EnergySourceShape.ttl> ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/LinearShuntCompensatorShape.ttl> ;
+owl:imports <file:///Users/d3a303/git/ericstephan/Powergrid-Models/blazegraph/test/shapes/LinearShuntCompensatorPhaseShape.ttl> .
+
+
